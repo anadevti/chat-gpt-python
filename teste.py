@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = ("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")
+openai.api_key = ("key")
 def generate_text(prompt):
     completions = openai.Completion.create(
         engine = "text-davinci-002",
